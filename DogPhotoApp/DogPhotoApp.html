@@ -2,15 +2,15 @@
 <html languaje="en">
     <head>
         <title>DogPhotoApp</title>
+        <link rel="stylesheet" href="stylesDog.css">
     </head>
     <body>
         <main> 
             <h1> Dog Photo App </h1>
             <h2> Cat Photos </h2>
-
             <p> Everyone loves cute <a target="_blank" href="https://th.bing.com/th/id/R.5615495fc690191dcf16c28a33700df4?rik=SYmAr7avcOcpPQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-W1baZJhmJyM%2fUUFTSxLqLjI%2fAAAAAAAAA6Y%2faoNKHVSSzlU%2fs1600%2f10.jpg&ehk=MtE8oYAU130ouoM28XzouGukgHM5CMzfTKF254RfeI0%3d&risl=&pid=ImgRaw&r=0"> dogs </a> online! </p>
             <p> See more <a target="_blank" href="./DogPhotosGallery.html"> dog photos </a> in our gallery. </p>
-            
+            <img src="https://i.kym-cdn.com/entries/icons/original/000/052/772/dog_closing_eyes_meme_cover.jpg" alt="dog_closing_eyes_meme_cover">
             <h2>Dog Lists</h2>
             <section>
                 <h3> Things dogs love: </h3>
@@ -28,7 +28,7 @@
             <section>
                 <h3>Top 3 things dogs hate: </h3>
                 <ol>
-                    <li>flea treatment=</li>
+                    <li>flea treatment</li>
                     <li>thunder</li>
                     <li>cats</li>
                 </ol>
@@ -38,8 +38,28 @@
                     <figcaption>Dogs <strong>hate</strong> other cats</figcaption>
                 </figure>
             </section>
-
-
+            <section>
+                <h2> Dog Form </h2>
+                <!-- La URL no acptura datos ni nada, es solo de ejemplo-->
+                <form action="./DogSubmit.html">
+                    <fieldset>
+                        <legend>Is your dog an indoor or outdoor dog?</legend>
+                        <label><input id="indoor" value="indoor" name="indoor-outdoor" type="radio">Indoor</label>
+                        <label><input id="outdoor" value="outdoor" name="indoor-outdoor" type="radio"> Outdoor</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your dog's personality?</legend>
+                        <input type="checkbox" id="loving" value="loving" name="personality"> <label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" value="lazy" name="personality"> <label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" value="energetic" name="personality"> <label for="energetic">Energetic</label>
+                    </fieldset>
+                    <input type="text" placeholder="dog photo URL">
+                    <button tpye="submit">Submit</button>
+                </form>
+            </section>
         </main>
     </body>
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
 </html>
