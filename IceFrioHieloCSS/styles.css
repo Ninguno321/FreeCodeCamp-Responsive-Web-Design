@@ -1,0 +1,118 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/colorida-heladeria-modernavarios-sabores-helados_636638-2607.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+h1{
+    font-size: 45px;
+    margin-top: auto;
+}
+
+
+h1, h2, p{
+    text-align: center;
+}
+
+
+.menu{
+    width: 80%;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 3%;
+    max-width: 500px;
+}
+.menu h2{
+    margin-top: 50px;
+}
+
+.est{
+    margin-bottom: 25px;
+    margin-top: -10px;
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    margin-bottom: 30px;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabor, .postre {
+  text-align: left;
+  width: 75%;
+}
+
+.sabor:hover, .postre:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+
+.price:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bottom-line {
+    height: 1px;
+    margin-bottom: 25px;
+    background-color: burlywood;
+    border-color: burlywood;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+/*Para el link tenemos, el link, visitado, encima, activo*/
+
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+  font-size: 14px;
+}
+
+a:active {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
